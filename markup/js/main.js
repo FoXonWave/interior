@@ -12,3 +12,12 @@ $(document).ready(function() {
         dots: true
     });
 });
+
+$(document).scroll(function() {
+    var scrolled = $(document).scrollTop();
+     if ( scrolled >= 120 ) {
+         $("header").addClass("sticky")
+     } else {
+        $("header").removeClass("sticky")
+     }
+ });

@@ -584,6 +584,20 @@ header {
     z-index: 10;
     position: relative;
     top: 0;
+    height: 144px;
+}
+
+header.sticky .wrapper {
+    position: fixed;
+    background: #fffe;
+    margin: 0px;
+    backdrop-filter: blur(3px) saturate(1.5);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 0px;
+    max-width: 1366px;
+    padding: 20px 120px;
 }
 
 .banner {
@@ -1110,7 +1124,7 @@ footer .sub {
     color: #212121;
     font-family: Montserrat;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 22px;
