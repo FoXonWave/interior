@@ -589,15 +589,16 @@ header {
 
 header.sticky .wrapper {
     position: fixed;
-    background: #fffe;
+    background: #fffd;
     margin: 0px;
-    backdrop-filter: blur(3px) saturate(1.5);
+    backdrop-filter: blur(8px) saturate(1.7);
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     top: 0px;
     max-width: 1366px;
-    padding: 20px 120px;
+    padding: 12px 120px;
+    box-shadow: 0 20px 16px -12px rgba(0,0,0,0.15);
 }
 
 .banner {
