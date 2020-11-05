@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 $(document).scroll(function() {
     var scrolled = $(document).scrollTop();
-     if ( scrolled >= 120 ) {
+     if ( scrolled >= 799 ) {
          $("header").addClass("sticky")
      } else {
         $("header").removeClass("sticky")
