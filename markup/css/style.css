@@ -578,6 +578,8 @@ header .wrapper {
     justify-content: space-between;
     padding: 60px 0;
     flex-direction: row;
+    top: -50px;
+    transition: top 0.25s ease-in-out;
 }
 
 header {
@@ -671,7 +673,7 @@ header.sticky .wrapper {
 }
 
 .slick-dots li.slick-active button:before {
-    font-size: 28px;
+    transform: scale(1.2);
     opacity: 0.8;
 }
 

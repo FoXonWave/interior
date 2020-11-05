@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $('.banner .banner-sliders').slick({
-        dots: true
+        dots: true,
+        infinite: true,
+        autoplay: true
     });
     $('.exclusive .banner-sliders').slick({
         dots: false,
