@@ -13,6 +13,20 @@ $(document).ready(function() {
     $('.hotdeal .banner-sliders').slick({
         dots: true
     });
+
+    if( $('.products').length > 0) {
+        let items = $('.items').html();
+        $('.refresh').on('click', function() {
+            $(".items").append(items);
+            setTimeout(function() {
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $(".refresh").offset().top
+                }, 1000);
+            }, 200)
+            
+        });
+    }
+    
 });
 
 $(document).scroll(function() {
